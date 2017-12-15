@@ -2,8 +2,8 @@
 Personal workstation configuration
 
 ## OS
-* Install Manjaro i3 community eddition, encrypt drive, GPT scheme, all in.
-* Delete i3 config from ~/.i3/config, logout login, generate new config
+* Install any distribution with i3wm.
+* Delete i3 config from ~/.i3/config or ~/.config/i3, logout login, generate new config
 * Update packages
 
 # i3
@@ -11,12 +11,17 @@ Personal workstation configuration
 * Install bumblebee-status (clone from git)
 * Install Fontawesome (copy .ttf /usr/share/fonts)
 * Install powerline Fonts
-* Install software associated with keybinds. (To be updated)
+* Install software associated with keybinds.
 
 # Software list:
-sudo pacman -S qutebrowser cutegram emacs zsh chromium pulseaudio tmux ranger htop mocp libqalculate audacity pamixer scrot 
+sudo pacman -S zsh pulseaudio tmux ranger htop mocp libqalculate audacity pamixer scrot libreoffice
+
+* Configure scrot for clipboard screenshots
 
 # Manual upgrade list:
 * oh-my-zsh (+ config)
-* spacemacs (+ uncomment packages in config, update)
+
+# IDE
+* nvim + tmux + zsh
+- update nvim config
 
