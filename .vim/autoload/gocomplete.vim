@@ -1,0 +1,1 @@
+/home/pastor/.vim/plugged/gocode/vim/autoload/gocomplete.vim
